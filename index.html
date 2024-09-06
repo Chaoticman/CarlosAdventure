@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>CarlosAdventure</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/obra.jfif" alt="">
+            <p>Um dia desses, Carlos estava votando da obra e estava pensando onde ir</p>
+            <button class="btn-proximo" data-proximo="1">Bar</button>
+            <button class="btn-proximo" data-proximo="2">voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada para chegar ao bar mas algo o esperava....</p>
+            <button class="btn-proximo" data-proximo="3">Procurar pelas vielas</button>
+            <button class="btn-proximo" data-proximo="4">continuar no caminho</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você começa sua jornada para chegar em casa mas algo o esperava....</p>
+            <button class="btn-proximo" data-proximo="5">Explorar a viela</button>
+            <button class="btn-proximo" data-proximo="6">Continuar pela rua </button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>você se depara com um morador de rua encostado na parede.... você</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a viela</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/vasco.jpeg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você chega no bar. parabéns (Good Ending#1)</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nvocê se depara com um morador de rua encostado na parede.... você</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>você continua para sua casa</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p> O morador de rua se da conta da sua presença ele mexe freneticamento no bolso e começa a andar em sua direção</p>
+            <button class="btn-proximo" data-proximo="9">Continua</button>
+            <button class="btn-proximo" data-proximo="10">corre</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O morador de rua intercepta você e começa a enfaquear você</p>
+            <button class="btn-proximo" data-proximo="11">...</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você corre e deixa ele para trás</p>
+            <button class="btn-proximo" data-proximo="12">...</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/morte1.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você morreu (Bad Ending#1)</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você retorna para casa e continua com sua vida (Neutral Ending#1)</p>
+            <button class="btn-proximo" data-proximo="">....</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
